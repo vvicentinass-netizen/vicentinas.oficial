@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
-import foodStandImg from "@/assets/food-stand.jpg";
-import eventDecorationImg from "@/assets/event-decoration.jpg";
+import foodStandImg from "https://i.pinimg.com/736x/c2/f4/ab/c2f4abe34b626cad961335ffe8929bf8.jpg";
+import eventDecorationImg from "https://i.pinimg.com/1200x/63/b7/38/63b738578998266e39a2ebc4aac6ae17.jpg";
 
 const About = () => {
   const ref = useRef(null);
