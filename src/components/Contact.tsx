@@ -144,7 +144,7 @@ const Contact = () => {
                   Respondemos rápido por WhatsApp
                 </p>
                 <Button
-                  onClick={() => window.open("https://wa.me/5493425123456", "_blank")}
+                  onClick={() => window.open("https://wa.me/5493424682198", "_blank")}
                   size="lg"
                   className="w-full bg-white text-primary hover:bg-white/90"
                 >
@@ -167,14 +167,14 @@ const Contact = () => {
                   <Phone className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
                   <div>
                     <h4 className="font-semibold mb-1">Teléfono</h4>
-                    <p className="text-foreground/80">+54 9 342 512-3456</p>
+                    <p className="text-foreground/80">+54 9 342 468-2198</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
                   <Mail className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
                   <div>
                     <h4 className="font-semibold mb-1">Email</h4>
-                    <p className="text-foreground/80">info@vicentinascatering.com</p>
+                    <p className="text-foreground/80">vvicentinass@gmail.com</p>
                   </div>
                 </div>
               </CardContent>
