@@ -46,19 +46,13 @@ const Footer = () => {
             <h4 className="font-display text-xl mb-4">Seguinos</h4>
             <div className="flex gap-4">
               <a
-                href="#"
+                href="https://www.instagram.com/vicentinas.oficial/"
                 className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-primary transition-smooth"
               >
                 <Instagram className="h-5 w-5" />
               </a>
               <a
-                href="#"
-                className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-primary transition-smooth"
-              >
-                <Facebook className="h-5 w-5" />
-              </a>
-              <a
-                href="#"
+                href="https://mail.google.com/mail/u/0/?pli=1#inbox?compose=CllgCJfpsSWwPnlJgWgpltkWbTDPptckFXHZPRfZXcbSbRqHkMSgwxtLSTpvtdJQSsrjfcFxgNB"
                 className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-primary transition-smooth"
               >
                 <Mail className="h-5 w-5" />
