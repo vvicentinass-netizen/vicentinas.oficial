@@ -2,12 +2,12 @@ import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef, useState } from "react";
 import { Button } from "@/components/ui/button";
-import heroBackground from "@/assets/hero-background.jpg";
-import foodStandImg from "@/assets/food-stand.jpg";
-import eventDecorationImg from "@/assets/event-decoration.jpg";
-import gourmetDishesImg from "@/assets/gourmet-dishes.jpg";
-import dessertTableImg from "@/assets/dessert-table.jpg";
-import takeawayImg from "@/assets/takeaway.jpg";
+import eventosImg from "@/assets/eventos-charcuterie.jpg";
+import platosImg from "@/assets/platos-tacos.jpg";
+import decoracionImg from "@/assets/decoracion-boda.jpg";
+import foodStandImg from "@/assets/food-stand-display.jpg";
+import mesaDulceImg from "@/assets/mesa-dulce-postres.jpg";
+import boxesEspecialesImg from "@/assets/boxes-especiales.jpg";
 
 const Gallery = () => {
   const ref = useRef(null);
@@ -17,12 +17,12 @@ const Gallery = () => {
   const filters = ["Todos", "Eventos", "Platos", "Mesas dulces", "Food stand", "Decoración", "Boxes especiales"];
 
   const galleryItems = [
-    { image: heroBackground, category: "Eventos", alt: "Evento elegante" },
-    { image: foodStandImg, category: "Food stand", alt: "Food stand" },
-    { image: eventDecorationImg, category: "Decoración", alt: "Decoración de evento" },
-    { image: gourmetDishesImg, category: "Platos", alt: "Platos gourmet" },
-    { image: dessertTableImg, category: "Mesas dulces", alt: "Mesa dulce" },
-    { image: takeawayImg, category: "Boxes especiales", alt: "Take away boxes" },
+    { image: eventosImg, category: "Eventos", alt: "Eventos y catering" },
+    { image: platosImg, category: "Platos", alt: "Mini tacos y platos gourmet" },
+    { image: decoracionImg, category: "Decoración", alt: "Decoración de boda elegante" },
+    { image: foodStandImg, category: "Food stand", alt: "Food stand con variedad" },
+    { image: mesaDulceImg, category: "Mesas dulces", alt: "Mesa dulce con postres" },
+    { image: boxesEspecialesImg, category: "Boxes especiales", alt: "Boxes especiales de comida" },
   ];
 
   const filteredItems =
