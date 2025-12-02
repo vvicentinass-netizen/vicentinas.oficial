@@ -99,7 +99,7 @@ const Navigation = () => {
             ))}
             <div className="px-4 pt-2">
               <Button
-                onClick={() => window.open("https://wa.me/5493425123456", "_blank")}
+                onClick={() => window.open("https://wa.me/5493424682198", "_blank")}
                 className="w-full bg-primary hover:bg-primary/90 text-primary-foreground"
               >
                 <Phone className="mr-2 h-4 w-4" />
