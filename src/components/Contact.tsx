@@ -26,7 +26,7 @@ const Contact = () => {
     const whatsappMessage = `Hola! Quiero solicitar un presupuesto:\n\nNombre: ${formData.name}\nFecha: ${formData.date}\nTipo de evento: ${formData.eventType}\nCantidad de personas: ${formData.guests}\nMensaje: ${formData.message}`;
     const encodedMessage = encodeURIComponent(whatsappMessage);
     
-    window.open(`https://wa.me/5493425123456?text=${encodedMessage}`, "_blank");
+    window.open(`https://wa.me/5493424682198?text=${encodedMessage}`, "_blank");
     
     toast({
       title: "¡Perfecto!",
