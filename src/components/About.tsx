@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
-import foodStandImg from "@/assets/food-stand.jpg";
-import eventDecorationImg from "@/assets/event-decoration.jpg";
+import eventosImg from "@/assets/eventos-charcuterie.jpg";
+import boxesEspecialesImg from "@/assets/boxes-especiales.jpg";
 
 const About = () => {
   const ref = useRef(null);
@@ -52,14 +52,14 @@ const About = () => {
             className="grid grid-cols-2 gap-4"
           >
             <motion.img
-              src={foodStandImg}
-              alt="Food Stand Vicentinas"
+              src={eventosImg}
+              alt="Eventos y catering Vicentinas"
               className="rounded-lg shadow-card w-full h-64 object-cover hover:shadow-hover transition-smooth"
               whileHover={{ scale: 1.05 }}
             />
             <motion.img
-              src={eventDecorationImg}
-              alt="Decoración de eventos"
+              src={boxesEspecialesImg}
+              alt="Boxes especiales de comida"
               className="rounded-lg shadow-card w-full h-64 object-cover hover:shadow-hover transition-smooth mt-8"
               whileHover={{ scale: 1.05 }}
             />
